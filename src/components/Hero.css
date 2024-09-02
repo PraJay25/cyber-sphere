@@ -4,23 +4,80 @@
   align-items: center;
   padding: 50px 100px;
   background-color: #fff;
+  height: 100vh; /* Ensure it takes full viewport height */
+}
+
+/* Left Section */
+.left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hire-me img {
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  left: -60px;
+  bottom: 2;
+}
+
+.hero-image img {
+  width: 400px;
+  height: auto;
+  border-radius: 15px;
+}
+
+/* Right Section */
+.right-section {
+  max-width: 50%; /* Takes 50% of the width */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
 }
 
 .hero-content {
-  max-width: 50%;
+  margin-bottom: 20px;
 }
 
 .hero-content h1 {
   font-size: 3em;
   color: #333;
+  margin-bottom: 20px;
 }
 
 .hero-content p {
   font-size: 1.2em;
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 
-.hero-image img {
-  max-width: 100%;
+.cta-buttons .btn,
+.cta-buttons .btn-secondary {
+  padding: 10px 20px;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #333;
+  border: 2px solid #333;
+}
+
+.idea img {
+  width: 50px; /* Adjust the size according to your needs */
   height: auto;
+  position: absolute;
+  right: -60px; /* Position it to the right of the content */
+  bottom: 0; /* Align it at the bottom of the text */
 }
