@@ -21,6 +21,7 @@ const Hero = () => {
             into innovative web applications. Explore my latest projects and
             articles, showcasing my expertise in React.js and web development.
           </p>
+          <p>new paragraph has been added here</p>
           <div className="cta-buttons">
             <a href="#resume" className="btn">
               Resume
